@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+body {
+  background-color: #000;
+  font-family: "Raleway", sans-serif;
+}
+.content {
+  max-width: 1280px;
+  margin: auto;
+  background: black;
+  padding: 0;
+}
+
+/* primera parte */
+h1 {
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  width: 1280px;
+  padding: 9px 0;
+  /* height: 73px; */
+}
+header {
+  background-color: #000;
+  margin: auto;
+  border: 0;
+}
+header img {
+  margin: 0;
+  width: 1280px;
+  height: 727px;
+  border-radius: 5px;
+}
+/* segunda parte */
+article {
+  margin: 0;
+  width: 1280px;
+  color: #fff;
+  /* height: 348px; */
+}
+
+.contenedor-art {
+  background-color: #000;
+  /* width: 1280px; */
+  height: 290px;
+  padding: 58px 150px;
+  display: flow-root;
+}
+
+.parrafo-art {
+  width: 475px;
+  height: 177px;
+  margin: 0;
+  padding-top: 20px;
+  display: inline-block;
+  text-size-adjust: 16px;
+}
+.imagen-art {
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+.imagen-art img {
+  width: 399px;
+  height: 237px;
+  border-radius: 5px;
+}
+
+/* tercera parte iconos */
+
+.iconos {
+  width: 1280px;
+  height: 318px;
+  padding-top: 30px;
+  background-color: #1e1e1a;
+  color: #fff;
+  text-align: center;
+}
+.iconos h2 {
+  font-size: 40px;
+  margin: 0;
+  padding: 40px;
+  /* border: solid 1px; */
+}
+
+.icono {
+  width: 15%;
+  margin: 0;
+  padding: 25px;
+  padding-bottom: 40px;
+  /* border: solid 1px; */
+  display: inline-block;
+  /* vertical-align: middle; */
+  
+}
+
+.icono p {
+  margin: 0;
+  padding: 10px;
+  /* font-size: 15px; */
+}
+/* cuarta parte imagenes */
+
+.galeria {
+  width: 980px;
+  height: 202px;
+  margin: 0;
+  /* padding: 73px 150px 73px 150px; */
+  padding: 73px 150px;
+  background-color: black;
+}
+
+.imagenes {
+  /* margin: 50px 0;*/
+  /* padding: 0 8px; */
+  padding-left: 6px;
+  /* width: 150px;
+    height: 100px; */
+  display: inline-block;
+}
+.imagenes img {
+  width: 316px;
+  height: 202px;
+  border-radius: 5px;
+}
+
+/* quinta parte footer */
+
+footer {
+  width: 1280px;
+  height: 77px;
+  background-color: #1e1e1a;
+  margin: 0;
+  /* padding: 30px 100px; */
+  color: #fff;
+  /* text-align: center; */
+}
+footer p {
+  display: inline-block;
+  width: 682px;
+  padding: 29px 299px;
+  text-align: center;
+}
+
+footer a:link {
+  text-decoration: none;
+}
+
+footer a:visited {
+  color: #fff;
+}
+
+footer a:hover {
+  background-color: #fff;
+  color: #1e1e1a;
+  border-radius: 5px;
+}
+
+footer a:active {
+  color: blueviolet;
+}
